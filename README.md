@@ -1,4 +1,33 @@
 # Brarista Chat Frontend Task
+## Issues Found and Fixed
+
+### Fixed UI misalignment with Figma designs
+- Corrected multi-step quiz navigation and validation
+- Fixed language selection persistence
+- Implemented proper responsive design for mobile/desktop
+- Added configurable chat auto-open functionality
+- Resolved TypeScript errors for improved reliability
+- Added missing footer elements per design
+
+### Improvements Made
+- Implemented step-by-step quiz flow matching Figma designs
+- Created centralized translation system with 5 languages
+- Developed responsive chat interface that adapts to screen size
+- Added form validation with helpful user feedback
+- Implemented unit tests for critical functionality
+
+### Trade-offs Made
+- Maintained single component structure for simplicity
+- Prioritized core functionality over animations
+- Used placeholder images to focus on critical features
+- Balanced type safety with development speed
+
+### Future Improvement Suggestions
+- Split into smaller, reusable components
+- Add smooth transitions between quiz steps
+- Implement proper image handling
+- Expand test coverage with integration tests
+- Enhance accessibility features
 
 ## Overview
 You are tasked with improving and extending an existing chat interface for a bra fitting consultation service. The current implementation includes a basic chat system and the start of a quiz feature, as well as translation and page navigation logic.
